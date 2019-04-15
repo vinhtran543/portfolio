@@ -1,0 +1,60 @@
+body{
+    font-family: Arial, Helventica, sans-serif;
+    font-size:15px;
+    line-height:1.5; /*amount of space between each line*/
+    padding:0;
+    margin: 0; /*side margins, 0 so it fits to screen*/
+    background-color: white;
+}
+
+/* GLobal */
+.container{
+    width: 80%;
+    margin:auto; /*move content to the middle*/
+    overflow:hidden; /*hides overflow outside of divs*/
+}
+
+/* Header */
+header{
+    background: black;
+    color: white;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: skyblue 3px solid;
+}
+
+/* CSS for a tags (hyperlinks) inside the header tag*/
+header a{ 
+    color: white;
+    text-decoration: none; /*remove underline from links*/
+    text-transform: uppercase; 
+    font-size: 16px;
+}
+
+/*CSS for ul tags inside the header tag*/
+header ul{
+    margin:0;  /* ul has margin by default */
+    padding:0; /*removed bullet points*/
+}
+
+/*CSS for li tags inside the header tag*/
+header li{
+    float:left; /*makes the page link horizontal, side by side instead of stacked on each other*/
+    display:inline;
+    padding: 0 20px 0 20px; /*Top, Right, Bottom, Left, Spacing for page links*/
+}
+
+/* CSS for logo id, id uses hashtag*/
+header #logo{
+    float:left;
+}
+
+/*CSS for h1 tag inside logo id tag*/
+header #logo h1{
+    margin:0;
+}
+
+header nav{
+    float:right; /* position navigation links to the right*/
+    margin-top:10px;
+}
