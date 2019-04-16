@@ -83,8 +83,8 @@ header a:hover{
 
 /* Show Case */
 #showcase{
-    min-height: 400px;
-    background:url('../images/showcase.jpg') no-repeat 0 -400px; /* X-axis, Y-axis*/
+    min-height: 1000px;
+    background:url('../images/showcase.jpg') no-repeat 0 -200px; /* X-axis, Y-axis*/
     text-align:center;
     color:white; 
 }
@@ -98,6 +98,17 @@ header a:hover{
 #showcase p{
     font-size:22px;
     color:silver;
+}
+
+#aboutme{
+    min-height: 400px;
+    background:green;
+}
+
+#aboutme img{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width:700px; /* Set image size */
 }
 
 /* Boxes */
@@ -178,3 +189,8 @@ footer{
         margin-bottom:5px;
     }
 }
+
+/*CSS for Smooth scroll, only works for chrome, mozilla, Opera browsers*/
+/* html {
+  scroll-behavior: smooth;
+} */
