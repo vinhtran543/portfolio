@@ -112,8 +112,8 @@ header a:hover{
 #aboutme img{
     margin-top: 100px;
     margin-bottom: 100px;
-    margin-left: 215px;
-    width:600px; /* Set image size */
+    margin-left: 200px;
+    width:600px; /*Set image size*/
 }
 #aboutme h1{
     font-size:30px;
@@ -199,6 +199,7 @@ footer{
         margin-bottom:5px;
     }
 }
+
 
 /*CSS for Smooth scroll, only works for chrome, mozilla, Opera browsers*/
 /* html {
