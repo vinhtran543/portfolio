@@ -141,22 +141,25 @@ header a:hover{
 /* Newsletter */
 #newsletter{
     padding:15px;
-    color:white;
+    color: silver;
     background:black;
 }
 
 #newsletter h1{
-    float:left;
+    /* float:left; */
+    text-align:center;
 }
 
 #newsletter form{
-    float:right;
+    /* float:right; */
+    text-align:center;
     margin-top:15px;
 }
 
 #newsletter input[type="email"]{
+    color: black;
     padding:4px;
-    height:25px;
+    height:35px;
     width:250px;
 }
 
@@ -172,9 +175,9 @@ footer{
 @media(max-width: 768px){ /* Adjust screen size for mobile/tablet/laptop*/
     header #logo,
     header nav,
-    header nav li
-    #newsletter h1
-    #newsletter form
+    header nav li,
+    #newsletter h1,
+    #newsletter form,
     #boxes .box{
         float:none;
         text-align:center;
