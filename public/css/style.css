@@ -84,7 +84,12 @@ header a:hover{
 /* Show Case */
 #showcase{
     min-height: 1000px;
-    background:url('../images/showcase.jpg') no-repeat 0 -200px; /* X-axis, Y-axis*/
+    /* background:url('../images/showcase.jpg') no-repeat 0 -200px; X-axis, Y-axis */
+    background:url('../images/showcase.jpg') no-repeat; /* X-axis, Y-axis*/
+
+    background-size: cover; /*allows background image to cover entire page and not show white space when zoomed out*/
+    background-position: center center;
+
     text-align:center;
     color:white; 
 }
@@ -102,13 +107,18 @@ header a:hover{
 
 #aboutme{
     min-height: 400px;
-    background:green;
 }
 
 #aboutme img{
     margin-top: 100px;
     margin-bottom: 100px;
-    width:700px; /* Set image size */
+    margin-left: 215px;
+    width:600px; /* Set image size */
+}
+#aboutme h1{
+    font-size:30px;
+    margin-top:250px;
+    text-align:center;
 }
 
 /* Boxes */
