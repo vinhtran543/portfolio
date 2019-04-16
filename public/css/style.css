@@ -14,6 +14,15 @@ body{
     overflow:hidden; /*hides overflow outside of divs*/
 }
 
+.button_1{
+    height:38px;
+    background:skyblue;
+    border:none; /* Gets rid of button border */
+    padding-left:20px; /* Makes button longer */
+    padding-right:20px;
+    color: white; /* Color of button text */
+}
+
 /* Header */
 header{
     background: black;
@@ -91,6 +100,24 @@ header a:hover{
     color:silver;
 }
 
+/* Boxes */
+#boxes{
+    margin-top:20px;
+}
+
+/* Box classes*/
+#boxes .box{  
+    float:left; /* Makes boxes horizontal instead of stacking on each other*/
+    width: 30%; /* Spacing between each box*/
+    padding: 10px;
+    text-align:center;
+}
+
+#boxes .box img{
+    width:90px; /* Set box image size */
+}
+
+/* Newsletter */
 #newsletter{
     padding:15px;
     color:white;
@@ -104,4 +131,10 @@ header a:hover{
 #newsletter form{
     float:right;
     margin-top:15px;
+}
+
+#newsletter input[type="email"]{
+    padding:4px;
+    height:25px;
+    width:250px;
 }
