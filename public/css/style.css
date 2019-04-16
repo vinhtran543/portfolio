@@ -29,6 +29,7 @@ header a{
     text-decoration: none; /*remove underline from links*/
     text-transform: uppercase; 
     font-size: 16px;
+    display:inline-block;
 }
 
 /*CSS for ul tags inside the header tag*/
@@ -39,8 +40,7 @@ header ul{
 
 /*CSS for li tags inside the header tag*/
 header li{
-    float:left; /*makes the page link horizontal, side by side instead of stacked on each other*/
-    display:inline;
+    display:inline; /*Makes page links horizontal, removes bullet points*/
     padding: 0 20px 0 20px; /*Top, Right, Bottom, Left, Spacing for page links*/
 }
 
@@ -55,6 +55,53 @@ header #logo h1{
 }
 
 header nav{
-    float:right; /* position navigation links to the right*/
+    /*float:right; position navigation links to the right*/
     margin-top:10px;
+    text-align:center;
+}
+
+/* Highlights text if highlight class is applied to tag */
+header .highlight, header .current a{
+    color: skyblue;
+    font-weight:bold;
+}
+
+/* Makes text pop when mouse hovers over hyperlinks with the 'a' tag */
+header a:hover{
+    color: white;
+    font-weight:bold;
+}
+
+/* Show Case */
+#showcase{
+    min-height: 400px;
+    background:url('../images/showcase.jpg') no-repeat 0 -400px; /* X-axis, Y-axis*/
+    text-align:center;
+    color:white; 
+}
+
+#showcase h1{
+    margin-top:100px;
+    font-size:55px;
+    margin-bottom:10px;
+}
+
+#showcase p{
+    font-size:22px;
+    color:silver;
+}
+
+#newsletter{
+    padding:15px;
+    color:white;
+    background:black;
+}
+
+#newsletter h1{
+    float:left;
+}
+
+#newsletter form{
+    float:right;
+    margin-top:15px;
 }
