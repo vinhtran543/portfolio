@@ -118,7 +118,29 @@ header a:hover{
 #aboutme h1{
     font-size:30px;
     margin-top:250px;
-    text-align:center;
+    text-align:left;
+}
+
+/* Bolds the text in the about me id section*/
+#aboutme .bold{
+    font-weight: bold;
+    font-size:30px;
+}
+
+#aboutme h2{
+    font-size:20px;
+    margin-top:25px;
+    line-height: 1.5; /*amount of space between each line*/
+}
+
+#aboutme h3{
+    font-size:18px;
+    margin-top:30px;
+    line-height: 1.5; /*amount of space between each line*/
+}
+
+#textbox{
+    width: 450px;
 }
 
 /* Boxes */
