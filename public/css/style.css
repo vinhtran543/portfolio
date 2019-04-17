@@ -35,7 +35,8 @@ header{
 /* CSS for a tags (hyperlinks) inside the header tag*/
 header a{ 
     color: white;
-    text-decoration: none; /*remove underline from links*/
+    /* text-decoration: none;  */
+    text-decoration: none !important; /*remove underline from links*/
     text-transform: uppercase; 
     font-size: 16px;
     display:inline-block;
@@ -92,6 +93,53 @@ header a:hover{
 
     text-align:center;
     color:white; 
+}
+
+#showcase .button {
+    background-color: rgb(135, 223, 235);
+    border: none;
+    color: white;
+    width: 180px;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50px;
+  }
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+ .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+.button:hover span {
+    padding-right: 25px;
+  }
+  
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+.button:hover {opacity: 1}
+
+#showcase a{
+    text-decoration: none !important; /*remove underline from links*/
+    text-transform: uppercase; 
 }
 
 #showcase h1{
