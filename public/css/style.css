@@ -195,7 +195,7 @@ header a:hover{
 #myskills{
     background-color: green;
     margin-top: 20px;
-    min-height: 400px;
+    min-height: 90px;
 }
 
 #myskills h1{
@@ -203,10 +203,14 @@ header a:hover{
     text-align:left;
 }
 
+#myskills h2{
+    font-size:20px;
+    text-align:left;
+}
+
 /* Bolds the text in the about me id section*/
 #myskills .bold{
     font-weight: bold;
-    font-size:30px;
 }
 
 * {
@@ -240,7 +244,8 @@ header a:hover{
 }
 
 #boxes .box img{
-    width:90px; /* Set box image size */
+    width:90px; /* Set image size */
+    height:100px; /* Set image height*/
 }
 
 /* Newsletter */
