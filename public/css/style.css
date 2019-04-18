@@ -110,14 +110,14 @@ header a:hover{
     border-radius: 50px;
   }
 
-.button span {
+#showcase .button span {
     cursor: pointer;
     display: inline-block;
     position: relative;
     transition: 0.5s;
   }
   
- .button span:after {
+#showcase .button span:after {
     content: '\00bb';
     position: absolute;
     opacity: 0;
@@ -126,16 +126,16 @@ header a:hover{
     transition: 0.5s;
   }
   
-.button:hover span {
+#showcase .button:hover span {
     padding-right: 25px;
   }
   
-.button:hover span:after {
+#showcase .button:hover span:after {
     opacity: 1;
     right: 0;
   }
 
-.button:hover {opacity: 1}
+#showcase .button:hover {opacity: 1}
 
 #showcase a{
     text-decoration: none !important; /*remove underline from links*/
@@ -150,7 +150,7 @@ header a:hover{
 
 #showcase p{
     font-size:22px;
-    color:silver;
+    color: white;
 }
 
 #aboutme{
@@ -191,9 +191,44 @@ header a:hover{
     width: 450px;
 }
 
+/* my skills */
+#myskills{
+    background-color: green;
+    margin-top: 20px;
+    min-height: 400px;
+}
+
+#myskills h1{
+    font-size:30px;
+    text-align:left;
+}
+
+/* Bolds the text in the about me id section*/
+#myskills .bold{
+    font-weight: bold;
+    font-size:30px;
+}
+
+* {
+    box-sizing: border-box; /* CSS needed for myskills columns (Responsive Web Design - Grid-View) */
+  }
+
+#myskills .col1{
+    width: 40%;
+    float: left;
+    padding: 15px;
+}
+
+#myskills .col2{
+    width: 60%;
+    float: left;
+    padding: 15px; 
+}
+
 /* Boxes */
 #boxes{
     margin-top:20px;
+    background-color: blue;
 }
 
 /* Box classes*/
