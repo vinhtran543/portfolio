@@ -164,7 +164,7 @@ header a:hover{
     width:600px; /*Set image size*/
 }
 #aboutme h1{
-    font-size:30px;
+    font-size:40px;
     margin-top:250px;
     text-align:left;
 }
@@ -172,7 +172,6 @@ header a:hover{
 /* Bolds the text in the about me id section*/
 #aboutme .bold{
     font-weight: bold;
-    font-size:30px;
 }
 
 #aboutme h2{
@@ -193,13 +192,13 @@ header a:hover{
 
 /* my skills */
 #myskills{
-    background-color: green;
-    margin-top: 20px;
-    min-height: 90px;
+    background-color:whitesmoke;
+    /* margin-top: 20px; */
+    min-height: 95px;
 }
 
 #myskills h1{
-    font-size:30px;
+    font-size:40px;
     text-align:left;
 }
 
@@ -231,8 +230,13 @@ header a:hover{
 
 /* Boxes */
 #boxes{
-    margin-top:20px;
-    background-color: blue;
+    /* margin-top:20px; */
+    background-color: whitesmoke;
+}
+
+#boxes h1{
+    font-size:20px;
+    font-weight:bold;
 }
 
 /* Box classes*/
@@ -240,6 +244,7 @@ header a:hover{
     float:left; /* Makes boxes horizontal instead of stacking on each other*/
     width: 30%; /* Spacing between each box*/
     padding: 10px;
+    font-size: 15px;
     text-align:center;
 }
 
@@ -312,7 +317,6 @@ footer{
         margin-bottom:5px;
     }
 }
-
 
 /*CSS for Smooth scroll, only works for chrome, mozilla, Opera browsers*/
 /* html {
