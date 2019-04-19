@@ -86,7 +86,7 @@ header a:hover{
 #showcase{
     min-height: 1000px;
     /* background:url('../images/showcase.jpg') no-repeat 0 -200px; X-axis, Y-axis */
-    background:url('../images/showcase.jpg') no-repeat; /* X-axis, Y-axis*/
+    background:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/showcase.jpg') no-repeat; /* X-axis, Y-axis*/
 
     background-size: cover; /*allows background image to cover entire page and not show white space when zoomed out*/
     background-position: center center;
@@ -149,6 +149,29 @@ header a:hover{
 }
 
 #showcase p{
+    font-size:22px;
+    color: white;
+}
+
+/* Showcase for projects page */
+#projectshowcase{
+    min-height: 500px;
+    background:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/laptop.jpg') no-repeat; /* linear-gradient dims the image*/
+
+    background-size: cover; /*allows background image to cover entire page and not show white space when zoomed out*/
+    background-position: center center;
+
+    text-align:center;
+    color:white; 
+}
+
+#projectshowcase h1{
+    margin-top:100px;
+    font-size:55px;
+    margin-bottom:10px;
+}
+
+#projectshowcase p{
     font-size:22px;
     color: white;
 }
