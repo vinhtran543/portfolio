@@ -170,8 +170,8 @@ header a:hover{
     text-align:left;
 }
 
-/* Bolds the text in the about me id section*/
-#aboutme .bold{
+/* Bolds the text*/
+.bold{
     font-weight: bold;
 }
 
@@ -206,11 +206,6 @@ header a:hover{
 #myskills h2{
     font-size:20px;
     text-align:left;
-}
-
-/* Bolds the text in the about me id section*/
-#myskills .bold{
-    font-weight: bold;
 }
 
 * {
@@ -373,11 +368,6 @@ footer{
     font-size:40px;
 
     text-align:left;
-}
-
-/* Bolds the text in the about me id section*/
-#projectabout .bold{
-    font-weight: bold;
 }
 
 #projectabout h2{
