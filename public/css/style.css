@@ -86,7 +86,7 @@ header a:hover{
 #showcase{
     min-height: 1000px;
     /* background:url('../images/showcase.jpg') no-repeat 0 -200px; X-axis, Y-axis */
-    background:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/showcase2.jpg') no-repeat; /* X-axis, Y-axis, linear-gradient dims the image*/
+    background:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/showcase.jpg') no-repeat; /* X-axis, Y-axis, linear-gradient dims the image*/
 
     background-size: cover; /*allows background image to cover entire page and not show white space when zoomed out*/
     background-position: center center;
